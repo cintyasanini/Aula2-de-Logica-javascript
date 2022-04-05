@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 9</title>
+</head>
+
+<body>
+
+    <script>
+
+        let numero1 = parseFloat(prompt("Insira o 1° número: "))
+        let numero2 = parseFloat(prompt("Insira o 2° número: "))
+
+        resultado1 = numero1 + numero2
+        resultado2 = numero1 - numero2
+        resultado3 = numero1 / numero2
+        resultado4 = numero1 * numero2
+
+        let operacao = prompt("Insira a operação que deseja realizar (Adição, Subtração, Divisão ou Multiplicação): ")
+        
+
+        switch(operacao){
+            case "Adição", "adição":
+                alert("O seu resultado é: " + resultado1)
+            break
+
+            case "Subtração", "subtração":
+                alert("O seu resultado é: " + resultado2)
+            break
+
+            case "Divisão", "divisão":
+                alert("O seu resultado é: " + resultado3)
+            break
+
+            case "Multiplicação", "multiplicação":
+                alert("O seu resultado é: " + resultado4)
+            break
+        }
+
+    </script>
+
+</body>
+
+</html>
